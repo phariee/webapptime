@@ -1,0 +1,27 @@
+h1 {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+label {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+select {
+    width: 30px;
+}
+
+option {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-size: 30px;
+    width: 100px;
+}
+
+.submit {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-size: 30px;
+}

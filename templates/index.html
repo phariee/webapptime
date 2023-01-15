@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RP and uni course eligibility</title>
+        <link rel="stylesheet" href="../static/styles.css">
+    </head>
+    <body>
+        <div>
+            <h1>Local University Course Eligibility</h1>
+            <h2>Enter your subject name and grades!</h2>
+            <br>
+            <br>
+        </div>
+        <div>
+            <form action="{{ url_for("calculate")}}" method="post">
+                <label for="gpgrade">GP:</label>
+                <select id="gpgrade" name="gpgrade">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                    <option value="s">S</option>
+                    <option value="u">U</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="pwgrade">PW:</label>
+                <select id="pwgrade" name="pwgrade">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                    <option value="s">S</option>
+                    <option value="u">U</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="h2subj1">H2 Subject:</label>
+                <select id="h2subj1" name="h2subj1">
+                    <option value="art">Art</option>
+                    <option value="econs">Economics</option>
+                    <option value="lit">Literature</option>
+                    <option value="geog">Geography</option>
+                    <option value="hist">History</option>
+                    <option value="music">Music</option>
+                    <option value="tsd">Theatre Studies and Drama</option>
+                    <option value="bio">Biology</option>
+                    <option value="chem">Chemistry</option>
+                    <option value="phys">Physics</option>
+                    <option value="math">Mathematics</option>
+                    <option value="comp">Computing</option>
+                    <option value="fmath">Further Mathematics</option>
+                </select>
+                <select id="h2grade1" name="h2grade1">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                    <option value="s">S</option>
+                    <option value="u">U</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="h2subj2">H2 Subject:</label>
+                <select id="h2subj2" name="h2subj2">
+                    <option value="art">Art</option>
+                    <option value="econs">Economics</option>
+                    <option value="lit">Literature</option>
+                    <option value="geog">Geography</option>
+                    <option value="hist">History</option>
+                    <option value="music">Music</option>
+                    <option value="tsd">Theatre Studies and Drama</option>
+                    <option value="bio">Biology</option>
+                    <option value="chem">Chemistry</option>
+                    <option value="phys">Physics</option>
+                    <option value="math">Mathematics</option>
+                    <option value="comp">Computing</option>
+                    <option value="fmath">Further Mathematics</option>
+                </select>
+                <select id="h2grade2" name="h2grade2">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                    <option value="s">S</option>
+                    <option value="u">U</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="h2subj3">H2 Subject:</label>
+                <select id="h2subj3" name="h2subj3">
+                    <option value="art">Art</option>
+                    <option value="econs">Economics</option>
+                    <option value="lit">Literature</option>
+                    <option value="geog">Geography</option>
+                    <option value="hist">History</option>
+                    <option value="music">Music</option>
+                    <option value="tsd">Theatre Studies and Drama</option>
+                    <option value="bio">Biology</option>
+                    <option value="chem">Chemistry</option>
+                    <option value="phys">Physics</option>
+                    <option value="math">Mathematics</option>
+                    <option value="comp">Computing</option>
+                    <option value="fmath">Further Mathematics</option>
+                </select>
+                <select id="h2grade3" name="h2grade3">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                    <option value="s">S</option>
+                    <option value="u">U</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="h1subj">H1 Subject/H2 equivalent:</label>
+                <select id="h1subj" name="h1subj">
+                    <option value="art">Art</option>
+                    <option value="econs">Economics</option>
+                    <option value="lit">Literature</option>
+                    <option value="geog">Geography</option>
+                    <option value="hist">History</option>
+                    <option value="music">Music</option>
+                    <option value="tsd">Theatre Studies and Drama</option>
+                    <option value="bio">Biology</option>
+                    <option value="chem">Chemistry</option>
+                    <option value="phys">Physics</option>
+                    <option value="math">Mathematics</option>
+                    <option value="comp">Computing</option>
+                    <option value="fmath">Further Mathematics</option>
+                </select>
+                <select id="h1grade1" name="h1grade">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                    <option value="s">S</option>
+                    <option value="u">U</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
